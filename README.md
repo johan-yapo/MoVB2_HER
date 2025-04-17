@@ -18,3 +18,11 @@ We begin constructing the surfaces In this work, by cleaving the bulk Mo<sub>0.8
 
 To calculate the Gibbs free energy (ΔGH) for H adsorption to predict the HER activity of the different HER active sites on the surface the equation ΔG<sub>H</sub> = ΔE<sub>H</sub>  + ΔE<sub>ZPE</sub> – TΔS was used, where ΔEH is the H-surface binding energy computed using DFT, ΔE<sub>ZPE</sub> is the zero-point energy difference between adsorbed H and free H2 and TΔS is the temperature and entropy contribution terms. ΔE<sub>ZPE</sub> is usually very small, between 0.01 to 0.05 eV5 which is around or less than the chemical accuracy target of 1 kcal∙mol<sup>-1</sup> or 0.043 eV that is desired for ab initio computational methods, so it can be neglected here and the equation can be simplified to ΔG<sub>H</sub> = ΔE<sub>H</sub>  – TΔS. Here TΔS is calculated with the approximation, TΔS ≈ 1/2 TS°(H<sub>2</sub>) where T = 298.15 K and S°(H<sub>2</sub>) = 130.7 J∙mol<sup>-1</sup>∙K<sup>-1</sup>). 6 Lastly, the equation used to solve for the binding energy of hydrogen ΔEH was ΔE<sub>H</sub> = E[surface + nH] - E[surface + (n - 1)H] - (1/2) E[H<sub>2</sub>]. and 𝐸[𝑠𝑢𝑟𝑓𝑎𝑐𝑒 + 𝑛𝐻] 𝐸[𝑠𝑢𝑟𝑓𝑎𝑐𝑒 + (𝑛 ― 1)𝐻] are the total energies of the surface with n and n - 1  hydrogen atoms adsorbed on it respectively and calculated using VASP, and 1/2 E[H<sub>2</sub>] is half of the energy of one gas phase, diatomic hydrogen molecule.
 
+![Image](https://github.com/user-attachments/assets/83c2bdd1-c0bc-4e08-a35a-30cb141a74e4)
+
+**Figure 1.** Gibbs free energy (ΔGH) for H adsorption on the {110} surfaces of Mo deficient V<sub>0.250</sub>Mo<sub>0.625</sub>B<sub>2</sub>, Mo0.873B<sub>2</sub>, MoB<sub>2</sub>, and VB<sub>2</sub> as a function of hydrogen coverage. 
+
+## Citation  
+This work hasn't been fully published yet, but if you use this work, please cite Dr. Eunsoo Lee's dissertation here:  
+
+https://escholarship.org/uc/item/99s0g1hq

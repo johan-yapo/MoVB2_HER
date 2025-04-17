@@ -1,0 +1,59 @@
+LOBSTER v4.1.0 (g++ 7.5.0)
+Copyright (C) 2021 by Chair of Solid-State and Quantum Chemistry, RWTH Aachen.
+All rights reserved. Contributions by S. Maintz, V. L. Deringer, M. Esser, R. Nelson, C. Ertural, P. C. Mueller, A. L. Tchougreeff and R. Dronskowski
+starting on host exp-1-08 on 2021-11-09 at 17:07:50 PST using 4 threads
+detecting used PAW program... VASP
+initializing PW system...
+***********************************************************************************************
+WARNING: You are using a fully symmetrized k-point grid. If you don't know what that means
+WARNING: stop here and check the manual. Please Prepare a k-point grid that spans EITHER the whole
+WARNING: Brillouin zone (i.e. without symmetry) or half of the Brillouin zone 
+WARNING: (i.e. only time reversal symmetry) and restart your quantum-mechanical calculation
+WARNING: and try again! 
+***********************************************************************************************
+initializing Augmentations...
+recommended basis functions:
+B 2p 2s 
+Mo 4d 5s 
+initializing LCAO system...
+setting up local basis functions...
+ B (pbeVaspFit2015) 2s 2p_y 2p_z 2p_x 
+Mo (pbeVaspFit2015) 5s 4p_y 4p_z 4p_x 4d_xy 4d_yz 4d_z^2 4d_xz 4d_x^2-y^2 
+WARNING: You are employing too few bands in your PAW calculation. To reconstruct
+WARNING: the Hamilton matrix in the local basis, you need to use at least
+WARNING: 17 bands. pCOHP analyses will be disabled. Please check the manual!
+setting up CO interactions...
+WARNING: There is a syntax error in a cohpgenerator line in the lobsterin file.
+WARNING: ignoring line "cohpGenerator"
+WARNING: You did not specify any COHP pairs in the lobsterin file. As default
+WARNING: I will try to find any pairs between 1.0 and 3.0 A distance,
+WARNING: but that might be wrong. If you want pCOHPs or pCOOPs, change the lobsterin!
+ found 3 interactions.
+projecting...
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+
+WARNING: Cannot use the tetrahedron method for k-space integration and must fall
+WARNING: back to Gaussian smearing which can take significantly longer. Make
+WARNING: sure to use the tetrahedron method whenever applicable.
+
+calculating overlaps...
+post-processing projection...
+abs. total  spilling:   3.02%
+abs. charge spilling:   2.46%
+
+calculating pDOS... using Gaussian smearing integration (sigma=0.2eV)
+writing DOSCAR.lobster...
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+
+writing COOPCAR.lobster and ICOOPLIST.lobster...
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+
+finished in 0 h  1 min 30 s  40 ms of wall time
+            0 h  4 min  7 s  20 ms of user time
+            0 h  0 min  0 s 220 ms of sys  time

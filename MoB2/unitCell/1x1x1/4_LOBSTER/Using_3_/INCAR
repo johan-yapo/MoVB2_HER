@@ -1,0 +1,61 @@
+System = Name
+
+#Computational settings
+
+LPLANE=.FALSE. #switches on the plane-wise data distribution in real space. TRUE., the data distribution in real space is done plane wise.
+NCORE=2 #determines determines the number of compute cores that work on an individual orbital.
+LSCALU=.FALSE. #switches on the parallel LU decomposition (using scaLAPACK) in the orthonormalization of the wave functions.
+NSIM=4 #NSIM sets the number of bands that are optimized simultaneously by the RMM-DIIS algorithm.
+
+#Initialization
+#GGA=RP #Determines which GGA DFT funnctional we want to use.PE=PBE, RE=revPBE, RP=RPBE, B3/B5=B3LYP.
+ALGO=Fast #Determines which algorithm is used to optimize orbitals. Similar to ALGO=normal, fast, or very_fast
+#IALGO=38 #=38 same as normal or fast ALGO
+ISTART=0 # 1 read WAVECAR if it exists
+ICHARG=11 # determines how VASP constructs the initial charge density. 11 to use an available CHGCAR file
+LAECHG=.TRUE. #the all-electron charge density will be reconstructed explicitly and written out to file. Put in AECCAR0, AECCAR1, AECCAR2.
+LCHARG=.TRUE. #Determines wheter the charge densities files are written in CHGCAR and CHG.
+PREC=accurate #specifies the "precision"-mode
+ISYM=-1 #Switches off the use of symmetry except psi=psi*. =-1 Switches it off completely.
+
+#Electronic Optimization
+
+ISPIN=1 
+ISMEAR=-5 #determines how the partial occupancies fnk are set for each orbital. SIGMA determines the width of the smearing in eV. -5 for tetrahedron method
+SIGMA=0.2 #specifies the width of the smearing in eV. By combining ISPIN with MAGMOM collinear magnetism can be studied.
+LREAL=.FALSE. #determines whether the projection operators are evaluated in real-space or in reciprocal space.
+NELM=200 #sets the maximum number of electronic SC (selfconsistency) steps which may be performed.
+NELMIN=5 #specifies the minimum number of electronic SCF steps
+EDIFF=1E-06 #global break condition for the electronic SC-loop. Convergence criteria.
+ENCUT=500.00 #specifies the cutoff energy for the planewave basis set in eV. should be ~1-1.3x of largest ENMAX atom in cell.
+
+#Ionic relaxation
+
+NSW=0 #sets the maximum number of ionic steps. >0 for relaxations.
+IBRION=-1 #determines how the ions are updated and moved. =2 default for relaxations, =-1 for energy calculations
+ISIF=1 #determines whether the stress tensor is calculated and which principal degrees-of-freedom are allowed to change in relaxation, =2 only atoms are relaxed, =3 both atoms and unit cells are relaxed.
+EDIFFG=-0.02 #defines the break condition for the ionic relaxation loop. -0.02 A/ev. >0 energym <0 force.
+
+#Magnetism
+
+#MAGMOM = 6*0 6*0 3*0 3*3 #Specifies the initial magnetic moment for each atom, if and only if ICHARG=2, or if ICHARG=1 and the CHGCAR file contains no magnetisation density.
+
+#DOS
+LORBIT=11  #together with an appropriate RWIGS, determines whether the PROCAR or PROOUT files are written. 11 for total DOS and l, m partial DOS
+#NEDOS=2001 #specifies number of gridpoints on which the (Desnsity of states) DOS is evaluated. ~1500-3000
+#EMIN=-12 #specifies the lower boundary of the energy range for the evaluation of the DOSi
+#EMAX=18 #Upper boundary
+NBANDS=17 #number of bands, obtained in OUTCAR or EIGENVAL of scf calculation
+LWAVE=.TRUE. #determines whether the wavefunctions are written to the WAVECAR file at the end of a run.
+
+#unknown
+
+#LSYM=.FALSE.
+#LDAU = .TRUE. Switches on the L(S)DA+U. #used in band structure calculations	
+#LDAUTYPE = 2 #specifies which type of L(S)DA+U approach will be used.
+#LDAUL = 2 2 #specifies the l-quantum number for which the on-site interaction is added.
+#LDAUU = 0 0  #specifies the strength of the effective on-site Coulomb interactions.
+#LDAUJ = 0 0  #specifies the strength of the effective on-site exchange interactions.
+LMAXMIX = 4 #controls up to which l-quantum number the one-center PAW charge densities are passed through the charge density mixer and written to the CHGCAR file.
+#SYMPREC=1.0E-04 #determines to which accuracy the positions in the POSCAR file must be specified.
+

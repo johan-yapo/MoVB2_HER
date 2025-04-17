@@ -1,0 +1,90 @@
+ running on    4 total cores
+ distrk:  each k-point on    4 cores,    1 groups
+ distr:  one band on    2 cores,    2 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Dec  7 2020 12:43:57) complex           
+ POSCAR found type information on POSCAR  Mo B 
+ POSCAR found :  2 types and       3 ions
+ scaLAPACK will be used
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ WAVECAR not read
+ augmentation electrons   12.018373587906812     
+ soft         electrons   0.0000000000000000     
+ augmentation electrons   12.018373587906812     
+ soft         electrons   0.0000000000000000     
+ augmentation electrons   12.018373587906812     
+ soft         electrons   0.0000000000000000     
+ augmentation electrons   12.018373587906812     
+ soft         electrons   0.0000000000000000     
+ total        electrons   12.018373587906812     
+ total        electrons   12.018373587906812     
+ total        electrons   12.018373587906812     
+ total        electrons   12.018373587906812     
+ augmentation electrons   169.75791458332097     
+ augmentation electrons   169.75791458332097     
+ augmentation electrons   169.75791458332097     
+ soft         electrons   0.0000000000000000     
+ augmentation electrons   169.75791458332097     
+ soft         electrons   0.0000000000000000     
+ soft         electrons   0.0000000000000000     
+ soft         electrons   0.0000000000000000     
+ total        electrons   169.75791458332097     
+ total        electrons   169.75791458332097     
+ total        electrons   169.75791458332097     
+ total        electrons   169.75791458332097     
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.418293154307E+02    0.41829E+02   -0.57024E+03  4320   0.105E+03
+DAV:   2    -0.147409728297E+02   -0.56570E+02   -0.53623E+02  5130   0.218E+02
+DAV:   3    -0.170271114658E+02   -0.22861E+01   -0.21752E+01  6234   0.384E+01
+DAV:   4    -0.170572404106E+02   -0.30129E-01   -0.29879E-01  5590   0.324E+00
+DAV:   5    -0.170577116759E+02   -0.47127E-03   -0.47058E-03  5672   0.311E-01    0.325E+01
+RMM:   6    -0.123061938746E+02    0.47515E+01   -0.15288E+01  4347   0.266E+01    0.672E+00
+RMM:   7    -0.124583495504E+02   -0.15216E+00   -0.92011E-01  4332   0.635E+00    0.390E+00
+RMM:   8    -0.125999700346E+02   -0.14162E+00   -0.74397E-01  4320   0.121E+01    0.518E+00
+RMM:   9    -0.126850679089E+02   -0.85098E-01   -0.37528E-01  4331   0.824E+00    0.122E+00
+RMM:  10    -0.127080295103E+02   -0.22962E-01   -0.49593E-02  4335   0.275E+00    0.106E+00
+RMM:  11    -0.127190787326E+02   -0.11049E-01   -0.40919E-02  4320   0.252E+00    0.520E-01
+RMM:  12    -0.127723835190E+02   -0.53305E-01   -0.37928E-01  4320   0.981E+00    0.484E-01
+RMM:  13    -0.127664175177E+02    0.59660E-02   -0.31905E-02  4321   0.301E+00    0.210E-01
+RMM:  14    -0.127724631483E+02   -0.60456E-02   -0.20169E-02  4323   0.221E+00    0.129E-01
+RMM:  15    -0.127730842517E+02   -0.62110E-03   -0.49583E-03  4340   0.100E+00    0.106E-01
+RMM:  16    -0.127732613209E+02   -0.17707E-03   -0.29986E-04  4339   0.207E-01    0.763E-02
+RMM:  17    -0.127740343854E+02   -0.77306E-03   -0.11387E-02  4320   0.164E+00    0.237E-01
+RMM:  18    -0.127739028337E+02    0.13155E-03   -0.16266E-04  4363   0.109E-01    0.143E-01
+RMM:  19    -0.127737865388E+02    0.11629E-03   -0.31761E-03  4320   0.813E-01    0.155E-02
+RMM:  20    -0.127738368126E+02   -0.50274E-04   -0.87041E-04  4320   0.472E-01    0.285E-02
+RMM:  21    -0.127738636177E+02   -0.26805E-04   -0.65850E-05  4310   0.131E-01    0.360E-03
+RMM:  22    -0.127738667067E+02   -0.30889E-05   -0.12194E-05  4058   0.518E-02    0.318E-03
+RMM:  23    -0.127738678442E+02   -0.11375E-05   -0.11276E-05  3998   0.504E-02    0.245E-03
+RMM:  24    -0.127738683718E+02   -0.52763E-06   -0.47249E-06  3625   0.326E-02
+   1 F= -.12773868E+02 E0= -.12773904E+02  d E =-.127739E+02
+ curvature:   0.00 expect dE= 0.000E+00 dE for cont linesearch  0.000E+00
+ trial: gam= 0.00000 g(F)=  0.127E-42 g(S)=  0.318E-02 ort = 0.000E+00 (trialstep = 0.100E+01)
+ search vector abs. value=  0.318E-02
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.127758014722E+02   -0.19336E-02   -0.97978E-02  4490   0.274E+00    0.157E-01
+RMM:   2    -0.127754069847E+02    0.39449E-03   -0.23318E-03  4320   0.481E-01    0.229E-01
+RMM:   3    -0.127753719682E+02    0.35016E-04   -0.10720E-04  4368   0.937E-02    0.172E-01
+RMM:   4    -0.127753679039E+02    0.40643E-05   -0.20411E-04  4320   0.193E-01    0.318E-02
+RMM:   5    -0.127753671240E+02    0.77994E-06   -0.27290E-06  3208   0.121E-02
+   2 F= -.12775367E+02 E0= -.12775289E+02  d E =-.149875E-02
+ trial-energy change:   -0.001499  1 .order   -0.001542   -0.003179    0.000095
+ step:   0.9686(harm=  0.9710)  dis= 0.00000  next Energy=   -12.775369 (dE=-0.150E-02)
+ reached required accuracy - stopping structural energy minimisation
+ writing wavefunctions
+ augmentation electrons   1.1900216225699656     
+ soft         electrons   10.831941123564432     
+ augmentation electrons   1.1900216225699656     
+ soft         electrons   10.831941123564432     
+ augmentation electrons   1.1900216225699656     
+ soft         electrons   10.831941123564432     
+ augmentation electrons   1.1900216225699656     
+ soft         electrons   10.831941123564432     
+ total        electrons   12.021962746134397     
+ total        electrons   12.021962746134397     
+ total        electrons   12.021962746134397     
+ total        electrons   12.021962746134397     

@@ -1,0 +1,61 @@
+ running on    4 total cores
+ distrk:  each k-point on    4 cores,    1 groups
+ distr:  one band on    2 cores,    2 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Dec  7 2020 12:43:57) complex           
+ POSCAR found type information on POSCAR  V  B 
+ POSCAR found :  2 types and       3 ions
+ scaLAPACK will be used
+ LDA part: xc-table for Pade appr. of Perdew
+ WARNING: stress and forces are not correct
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ WAVECAR not read
+ augmentation electrons   11.007017471142273     
+ soft         electrons   0.0000000000000000     
+ augmentation electrons   11.007017471142273     
+ soft         electrons   0.0000000000000000     
+ augmentation electrons   11.007017471142273     
+ soft         electrons   0.0000000000000000     
+ augmentation electrons   11.007017471142273     
+ soft         electrons   0.0000000000000000     
+ total        electrons   11.007017471142273     
+ total        electrons   11.007017471142273     
+ total        electrons   11.007017471142273     
+ total        electrons   11.007017471142273     
+ augmentation electrons   34.481181691938062     
+ soft         electrons   0.0000000000000000     
+ augmentation electrons   34.481181691938062     
+ soft         electrons   0.0000000000000000     
+ augmentation electrons   34.481181691938062     
+ soft         electrons   0.0000000000000000     
+ augmentation electrons   34.481181691938062     
+ soft         electrons   0.0000000000000000     
+ total        electrons   34.481181691938062     
+ total        electrons   34.481181691938062     
+ total        electrons   34.481181691938062     
+ total        electrons   34.481181691938062     
+ charge-density read from file: Name                                    
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.260246486235E+02    0.26025E+02   -0.46784E+03  4456   0.112E+03
+DAV:   2    -0.216130657836E+02   -0.47638E+02   -0.44146E+02  4364   0.170E+02
+DAV:   3    -0.244689372621E+02   -0.28559E+01   -0.27357E+01  5014   0.503E+01
+DAV:   4    -0.245416227237E+02   -0.72685E-01   -0.72115E-01  5510   0.780E+00
+DAV:   5    -0.245427035734E+02   -0.10808E-02   -0.10801E-02  5476   0.817E-01
+RMM:   6    -0.245427229603E+02   -0.19387E-04   -0.19373E-04  4412   0.960E-02
+RMM:   7    -0.245427247501E+02   -0.17898E-05   -0.17974E-05  4181   0.272E-02
+RMM:   8    -0.245427250100E+02   -0.25994E-06   -0.25552E-06  3133   0.830E-03
+   1 F= -.24542725E+02 E0= -.24542725E+02  d E =0.000000E+00
+ augmentation electrons   1.8560335047289347     
+ soft         electrons   9.1539324556907307     
+ augmentation electrons   1.8560335047289347     
+ soft         electrons   9.1539324556907307     
+ augmentation electrons   1.8560335047289347     
+ soft         electrons   9.1539324556907307     
+ augmentation electrons   1.8560335047289347     
+ soft         electrons   9.1539324556907307     
+ total        electrons   11.009965960419665     
+ total        electrons   11.009965960419665     
+ total        electrons   11.009965960419665     
+ total        electrons   11.009965960419665     

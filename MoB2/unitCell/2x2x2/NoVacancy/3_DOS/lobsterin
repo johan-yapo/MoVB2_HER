@@ -1,0 +1,8 @@
+COHPstartEnergy  -9
+COHPendEnergy     15
+
+basisSet pbeVaspFit2015
+basisFunctions Mo 5s 4d 5p
+basisFunctions B  2S 2p 
+
+cohpGenerator between type Mo type B

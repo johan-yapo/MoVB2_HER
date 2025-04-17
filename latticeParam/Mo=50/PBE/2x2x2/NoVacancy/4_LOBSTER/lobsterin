@@ -1,0 +1,10 @@
+COHPstartEnergy  9
+COHPendEnergy    -16
+
+basisSet pbeVaspFit2015
+basisFunctions Mo 5s 4d 4p
+basisFunctions V 4s 3d 3p
+basisFunctions B 2s 2p
+
+cohpGenerator from 1.0 to 4.0
+

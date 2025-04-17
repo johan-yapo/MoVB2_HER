@@ -5,7 +5,7 @@
 To clone the **FGT_HER** repository, use the following command:
 
 ```sh
-git clone https://github.com/johan-yapo/MOVB2_HER.git
+git clone https://github.com/johan-yapo/MoVB2_HER.git
 ```
 
 ## 2) Computational Details

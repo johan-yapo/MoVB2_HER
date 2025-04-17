@@ -22,6 +22,9 @@ To calculate the Gibbs free energy (ΔGH) for H adsorption to predict the HER ac
 
 **Figure 1.** Gibbs free energy (ΔGH) for H adsorption on the {110} surfaces of Mo deficient V<sub>0.250</sub>Mo<sub>0.625</sub>B<sub>2</sub>, Mo<sub>0.873</sub>B<sub>2</sub>, MoB<sub>2</sub>, and VB<sub>2</sub> as a function of hydrogen coverage. 
 
+![Image](https://github.com/user-attachments/assets/a8f5a62d-a7f4-4cdf-b363-bdc8c733696f)
+**Figure 2c.** The DOS and COHP plots for V<sub>0.25</sub>Mo<sub>0.625</sub>B<sub>2</sub> as representative of the solid solution MoxV1-xB2.
+
 ## Citation  
 This work hasn't been fully published yet, but if you use this work, please cite Dr. Eunsoo Lee's dissertation here:  
 
